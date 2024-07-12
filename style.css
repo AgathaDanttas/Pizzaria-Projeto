@@ -1,0 +1,33 @@
+/* a primeira coisa que a gente faz é resetar todo o projeto tirar,a margen etc...
+
+{
+   margin:0; tirando  a margin
+   padding:0; tirando os espaçamentos
+   box-sizing: border-box; tirando a caixa 
+   list-style: none;  tirando as bolinhas da li (lista) queo próprio browse colocou
+   border: none;  tirando as bordas padrões, que automaticamente está nos botões
+   text-decoration: none; tirando os traços que fica debaixo dos links
+} 
+*/
+
+/* na hora de colar os import das fontes, não coloca o style, por que ja estamos nos arquivos do style,a não ser se estivessemos estilizando a página pelo html*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+ /* esse aterisco abaixo quer dizer que estamos pegando todos os elementos do nosso projeto*/
+ *{
+   margin:0; /*tirando  a margin*/
+   padding:0; /*tirando os espaçamentos*/
+   box-sizing: border-box; /* tirando a caixa */
+   list-style: none; /* tirando as bolinhas da li (lista) queo próprio browse colocou*/
+   border: none; /* tirando as bordas padrões, que automaticamente está nos botões*/
+   text-decoration: none; /* tirando os traços que fica debaixo dos links*/
+   font-family: 'Roboto', sans-serif; /*para modificar a fonte*/ 
+
+}
+
+html {
+    /* essas configurações abaixo é para dizer que a tela pode ter a largura completa e a altura também*/
+     width: 100vw;
+     height: 100vh;
+}
+

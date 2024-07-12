@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- este link está linkando este projeto com os icones do bootstrap, dessa forma é possível utilizar os ícones-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- esta linkando o arquivo css, caso o nome do arquivos seja diferenre de style, mudar e colocar o mesmo nome do arquivo do css-->
+  <link rel="stylesheet" href="style.css">
+  <title>PizzaShop</title>
+</head>
+
+<body>
+
+  <!-- a tag header é a parte de cima do projeto, a barra de pesquisa -->
+  <!-- a forma como estamos se referenciando ao header é pelo nome da classe que é content-->
+  <header class="content">
+    <!--no nosso header nós temos uma div que dentro da div vai uma logo que irá representar a logo do projeto -->
+    <div class="logo">
+      <!-- tag para colocar a logo do Projeto-->
+      <img src="./img/pngtree-cartoon-yellow-pizza-illustration-png-image_4634672-removebg-preview.png"
+        alt="imagem indisponivel">
+      <h3>PizzaShop</h3>
+
+      <!-- A tag nav,é como se fosse uma caixa como se fosse uma div,só que ela tem uma semantica dentro do html, então essa tag explica para nosso browse que o que está dentro desssa nav será nossa barra de navegação que estará nosso menu -->
+      <nav>
+        <!-- ul é uma lista desordenada, e dentro do ul teremos 7 li -->
+        <ul class="list-menu">
+          <!--para criar 7li podemos usar esse atalho li*7>a
+          o a quer dizer que entro desse li, teremos um link, ao colocar dentro do (href= "#") queremos dizer que esse ao clicar no li, ele terá um link cego, ele não será redireionado para nenhum lugar -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Cardápio</a></li>
+          <li><a href="#">Contate-me</a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-cart-check-fill"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--2° parte: depois da parte de cima colocaremos a parte do fundo, o nome do site, foto da pizza o efeito da sombra em cima da foto e os botões ...-->
+  <!--section.firt-section
+    Nesse comando estamos criando uma seção e o ponto quer o dizer o nome da classe,que será first-section primeira seção.-->
+
+  <section class="first-section">
+    <!-- atalho para criar uma div, coloca ponto e depois um nome escrito ex: .conteudo-principal-->
+    <div class="conteudo-principal">
+      <h1>Deixe seu dia mais saboroso!!</h1>
+      <h2>Aa pizzas mais recheadas da região</h2>
+
+      <!--para nao coloca os botoes separados,criei uma caixa onde estará os dois botões-->
+      <div class="btn">
+        <button class="reservar">Reserve a sua!</button>
+        <button class="montar">Montar a sua Pizza!</button>
+
+      </div>
+
+    </div>
+  </section>
+
+   <!--agora estilizar a página com css,colocar um link la em cima para linkar o arquivo de estilo que foi criado, comando link:css-->
+
+  </body>
+
+</html>
